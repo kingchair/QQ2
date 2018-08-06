@@ -1,0 +1,35 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+#container{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  /*background-color: coral;*/
+}
+.border{
+  border:1px solid crimson;
+}
+.xy-center{
+  display: flex;
+      align-items: center;
+  justify-content: center;
+}
+.y-center{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.x-center{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+}

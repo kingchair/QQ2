@@ -1,0 +1,93 @@
+#main {
+  flex: 1;
+  width: 100%;
+  overflow: scroll;
+
+  background-size: cover;
+  background-position: center;
+  background-color: gainsboro;
+
+}
+
+#dialogue {
+
+  min-height: 100%;
+  width: 100%;
+  background-color: rgba(255 , 255 , 255 , .2);
+
+  padding: 10px 0px 10px 0px;
+
+}
+.chat_box1{
+  margin-top: 10px;
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+   justify-content: flex-start;
+}
+.chat_box1_img{
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: 15px;
+  height: 40px;
+  width: 40px;
+
+}
+.chat_box1_text{
+  margin: 10px 0px 4px 10px;
+  background-color: white;
+  max-width: 100%;
+  line-height: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 5px 5px 5px 5px;
+
+
+}
+.chat_box2{
+  margin-top: 10px;
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+.chat_box2_img{
+
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-right: 15px;
+  height: 40px;
+  width: 40px;
+
+}
+.chat_box2_text{
+  font-weight: 100;
+  color: white;
+  margin: 10px 10px 4px 0px;
+  background-color: #2196F3;
+  max-width: 60%;
+  line-height: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 5px 5px 5px 5px;
+
+}
+.chat_img{
+  border-radius: 10px;
+width: 70%;
+  max-width: 70%;
+  min-height: 140px;
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.chat_box_content{
+  display: flex;
+  flex: 1;
+  width: 80%;
+}
+/*  内容start   */

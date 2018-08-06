@@ -1,0 +1,236 @@
+#main{
+  flex: 1;
+  width: 100%;
+  overflow: scroll;
+
+  /*background-color: #E8EAF6;*/
+
+}
+
+
+#space_top{
+  background-position: center;
+  background-size: cover;
+  background-image: url("../img/顶部背景.png");
+  width: 100%;
+  height: 200px;
+  position: relative;
+
+
+}
+
+.space_top1{
+  position: absolute;
+  bottom: 40px;
+  display:flex;
+  height: 80px;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+
+
+}
+
+
+.space_top1_img{
+  margin-left: 10px;
+  height: 80%;
+  width: 64px;
+  background-image: url("../img/头像.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+.space_top1_right{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 80%;
+  height: 100%;
+}
+.space_top1_right_text{
+  color: white;
+}
+.top1_text  {
+  font-size: 12px;
+  margin-bottom: 8px;
+  display: flex;
+}
+.space_top1_right_img{
+  margin-right: 5px ;
+  margin-bottom: 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image: url("../img/顶部头像.png");
+  background-position: center;
+  background-size: cover;
+
+}
+.space_top2{
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  width: 100%;
+  height: 40px;
+
+}
+.space_menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  color: white;
+  font-weight: 100;
+}
+/*  内容start   */
+
+.space_main{
+  width: 100%;
+  height: 360px;
+}
+.space_main_top{
+  justify-content: flex-start;
+  display: flex;
+  width: 100%;
+  height: 45px;
+}
+.space_main_top_img{
+  margin: 8px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  background-position: center;
+
+}
+.space_main_top_text{
+  margin-top: 5px;
+
+  height: 100%;
+  flex: 1;
+}
+.space_main_top_text_id{
+  line-height: 22px;
+  margin: 2px;
+  font-size: 18px;
+}
+.space_main_top_text_time{
+  line-height: 22px;
+  color: #757575;
+  font-size: 14px;
+}
+.space_main_top_menu{
+  margin: 10px;
+  height: 20px;
+  width: 20px;
+  background-image: url("../img/down.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.space_main_content{
+  margin-top: 10px;
+  margin-left: 10px;
+  flex: 1;
+  width: 100%;
+
+}
+.space_main_content_img{
+  /*height: 140px;*/
+  width: 100%;
+  /*background-image: url("../img/内容1.png");*/
+  max-width: 100%;
+  min-height: 140px;
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.space_main_good{
+  height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #E0E0E0;
+}
+.space_main_good_text{
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 100px;
+  height: 100%;
+  font-size: 12px;
+  color:#9E9E9E;
+  line-height: 30px;
+}
+.space_main_good_img{
+  flex: 1;
+  display: flex;
+  height: 30px;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+.space_main_good_img1{
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../img/赞.svg");
+  margin: 5px;
+}
+.space_main_good_img2{
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../img/评论.svg");
+  margin: 5px;
+}
+
+.space_main_good_img3{
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../img/转发.svg");
+  margin: 5px;
+}
+
+.comments{
+  display: flex;
+  width: 100%;
+  height: 35px;
+  margin-top: 5px;
+  /*align-items: center;*/
+  /*justify-content: center;*/
+}
+.comments_body{
+  height: 25px;
+  background-color: #EEEEEE;
+  width: 96%;
+  display: flex;
+  border-radius: 4px ;
+  /*align-items: center;*/
+  /*justify-content: center;*/
+}
+.space_main_comment_forwarding{
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.comments_body_text{
+  height: 20px;
+  font-size: 16px;
+  color: #BDBDBD;
+}
+.line{
+  height: 10px;
+  width: 100%;
+  background-color: #E0E0E0;
+}
+
+/* 内容 end*/
+
